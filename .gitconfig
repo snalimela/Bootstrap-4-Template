@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = Suresh Reddy
+[user]
+	email = n.sureshreddy@yahoo.com
+[credential]
+	helper = wincred
